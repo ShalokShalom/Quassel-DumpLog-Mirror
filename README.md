@@ -1,8 +1,12 @@
 ﻿# Quassel DumpLog Mirror
 
+Use python3 and its psycopg2
+
 This is a simple mirror of http://pastebin.com/rxcK6BmV
 
-These scripts were originally written by their respective authors and postgresql support was added by TecknoJock
+These scripts were originally written by their respective authors.
+TecknoJock adopt them for postgresql, sqlite is not supported with these scripts here.
+
 
 * **quasseltool.py** - This is the core database handling module, required for both versions of dump log.
 Def cursor needs to be updated with your credentials for the postgresql quassel db in order to use.
