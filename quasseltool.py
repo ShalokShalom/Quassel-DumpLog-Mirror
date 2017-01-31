@@ -14,7 +14,7 @@ import os
 import re
 
 class _conf:
-    dbpath=("~/.config/quassel-irc.org/quassel-storage.sqlite", "~/.quassel/quassel-storage.sqlite")
+    dbpath=("/path/to/your/quassel/postgresql")
 
 """
 Buffer Types
